@@ -25,7 +25,7 @@ const ListBox = () => {
                   margin: '15px',
                 }}
               >
-                <Link to={`/${todolist.id}`}>상세페이지</Link>
+                <Link to={`/detail/${todolist.id}`}>상세페이지</Link>
                 <br />
                 {todolist.id}
                 <br />
@@ -73,7 +73,7 @@ const ListBox = () => {
                   margin: '15px',
                 }}
               >
-                <Link to={`/${todolist.id}`}>상세페이지</Link>
+                <Link to={`/detail/${todolist.id}`}>상세페이지</Link>
                 <br />
                 {todolist.id}
                 <br />
